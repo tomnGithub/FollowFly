@@ -1,0 +1,15 @@
+Package: FlyTrackPACK
+Type: Package
+Title: Individual Fly Tracking and Climbing Velocity Analysis
+Version: 0.2.0
+Authors@R: person("YOUR_GIVEN_NAME", "YOUR_FAMILY_NAME", email = "YOUR_EMAIL", role = c("aut", "cre"))
+Description: Tracks individual flies across FreeClimber detections, repairs short gaps in trajectories, applies Kalman smoothing, and estimates climbing velocity using moving-window linear regression.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+Imports:
+    doParallel,
+    dplyr,
+    foreach,
+    parallel,
+    stats
