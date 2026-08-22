@@ -99,14 +99,9 @@ FreeClimber `*.raw.csv` files and concatenated datasets with the same columns ar
 
 The primary velocity measurement is `kalman_y_slope` in `results$slopes`.
 
-## Notes
-
-- Unless coordinates were converted beforehand, slope values are in coordinate units per frame rather than cm/s.
-- The current defaults preserve the original workflow: duplicate detections are filtered within 15 coordinate units, track assignments farther than 20 units are treated as new flies, ghost tracking uses up to 10 recent frames, the Kalman model assumes 30 fps, and slope analysis uses a 30-frame window with an `R^2` cutoff of 0.8.
-
 ## Published use
 
-An earlier version of the FollowFly workflow was used to estimate individual-fly climbing velocities in:
+The FollowFly workflow was used to estimate individual-fly climbing velocities in:
 
 Harrison, B. R., Sun, Y., Nonacs, T., Shankar, H., Djukovic, D., Raftery, D., & Promislow, D. E. L. (2026). **Early-Life Climbing Stratifies the Metabolome and Mortality Risk in Genetically Identical Flies.** *Aging Cell*, 25(1), e70299. https://doi.org/10.1111/acel.70299
 
