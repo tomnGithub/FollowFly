@@ -19,8 +19,6 @@ This makes it possible to:
 
 ## Workflow
 
-![FollowFly workflow](man/figures/fig3_workflow.png)
-
 FollowFly processes FreeClimber output in four main stages:
 
 1. filter likely duplicate detections within frames;
