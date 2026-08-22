@@ -2,7 +2,7 @@
 
 `FollowFly` is an R package add-on to [FreeClimber](https://github.com/adamspierer/FreeClimber) that tracks **individual flies** from FreeClimber detections and estimates climbing velocity from individual trajectories.
 
-FollowFly was developed to extend FreeClimber from vial-level summaries to fly-level tracking. Instead of estimating climbing behavior from all detections in a vial at once, FollowFly builds trajectories for individual flies, fills short detection gaps, smooths tracks, and calculates velocity for each fly separately.
+FollowFly was developed to extend FreeClimber from vial-level summaries to fly-level tracking. Instead of estimating climbing behavior from all detections in a vial at once, FollowFly builds trajectories for individual flies, fills short detection gaps, smooths tracks, and calculates velocity for each fly separately. 
 
 ![FollowFly tracking example](man/figures/curly_climbing.gif)
 
